@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: white;
+}
+
+.box{
+    background-color: cornflowerblue;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box{
+    background-color: crimson;
+}
+
+.titles-container h1{
+    color: crimson;
+}
